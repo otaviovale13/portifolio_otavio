@@ -1,0 +1,204 @@
+.paiMain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #EEEEEE;
+  font-size: 1rem;
+  height: 79.3vh;
+  margin-left: 5rem;
+}
+
+.vale{
+  color: #F96D00;
+  font-size: 3rem;
+}
+
+.iconsMain{
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+
+.fotoMinha{
+  width: 30rem;
+  border-radius: 5rem;
+  border: solid 5px #F96D00;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 40rem;
+  margin-top: 5rem;
+}
+
+section {
+  padding-top: 20px; /* Ajuste opcional para garantir que o conteúdo das seções não fique colado no topo */
+}
+
+.sobreMim{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #EEEEEE;
+}
+
+.sobreMimTitulo{
+  color: #F96D00; 
+}
+
+.sobreMimTexto{
+  font-size: 1.5rem;
+  width: 70rem;
+  text-align: center;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #EEEEEE;
+}
+
+.minhas{
+  color: #F96D00;
+}
+
+.skillsMain {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  gap: 1rem;
+  font-size: 1.5rem;
+  justify-content: center; /* Centraliza os itens */
+  max-width: 900px; /* Define uma largura máxima para melhor controle */
+  margin-top: 5rem;
+}
+
+.skillsMain > * {
+  flex: 1 1 calc(33.33% - 3rem); /* Garante que no máximo 3 itens fiquem por linha */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+.skillImg{
+  width: 5rem;
+}
+
+.barra{
+  background-color: #F96D00;
+  width: 10rem;
+}
+
+.Tecnologias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #EEEEEE;
+}
+
+.skillsMainTecnologias {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  gap: 3rem;
+  font-size: 1.5rem;
+  justify-content: center; /* Centraliza os itens */
+  max-width: 300px; /* Define uma largura máxima para melhor controle */
+  margin-top: 5rem;
+}
+
+.skillsMainTecnologias > * {
+  flex: 1 1 calc(33.33% - 3rem); /* Garante que no máximo 3 itens fiquem por linha */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+.skill{
+  transition: ease-in-out 0.3s;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 5rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.skill:hover{
+  background-color: #F96D00;
+  color: #222831;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.projetos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.Meus{
+  color: #F96D00;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.projetosMain{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin-top: 5rem;
+}
+
+.projeto{
+  background-color: #00ADB5;
+  width: 40rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #222831;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ferraentas{
+  display: flex;
+  gap: 2rem;
+}
+
+.ferraenta{
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link{
+  text-decoration: none;
+  color: #EEEEEE;
+  background-color: #222831;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+}
+
+.link:hover{
+  transform: scale(1.05);
+  background-color: #EEEEEE;
+  color: #222831;
+}

@@ -1,0 +1,88 @@
+.paiSupremo{
+    width: 100%;
+    position: fixed;
+    margin-top: -5rem;
+}
+
+.paiHeader{
+    background-color: #00ADB5;
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    align-items: center;
+}
+
+.filhoHeader{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 5rem;
+    font-size: 0.7rem;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #222831;
+}
+
+.nome{
+    margin-left: 5rem;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #222831;
+    transition: ease-in-out 0.3s;
+}
+
+.nome:hover{
+    color: #EEEEEE;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sobreHeader{
+    margin-left: 5rem;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #222831;
+    transition: ease-in-out 0.3s;
+}
+
+.sobreHeader:hover{
+    color: #EEEEEE;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.habHeader{
+    margin-left: 5rem;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #222831;
+    transition: ease-in-out 0.3s;
+}
+
+.habHeader:hover{
+    color: #EEEEEE;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.proHeader{
+    margin-left: 5rem;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #222831;
+    transition: ease-in-out 0.3s;
+}
+
+.proHeader:hover{
+    color: #EEEEEE;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.expHeader{
+    margin-left: 5rem;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #222831;
+    transition: ease-in-out 0.3s;
+}
+
+.expHeader:hover{
+    color: #EEEEEE;
+    cursor: pointer;
+    transform: scale(1.1);
+}
