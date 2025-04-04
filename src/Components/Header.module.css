@@ -86,3 +86,102 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media (max-width: 1135px) {
+    .nome{
+        font-size: 1.5rem;
+    }
+
+    .sobreHeader{
+        font-size: 1rem;
+    }
+
+    .habHeader{
+        font-size: 1rem;
+    }
+
+    .proHeader{
+        font-size: 1rem;
+    }
+
+    .expHeader{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 830px) {
+
+    .filhoHeader{
+        gap: 0rem;
+    }
+
+    .nome{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .sobreHeader{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .habHeader{
+        font-size: 0.7rem;
+    }
+
+    .proHeader{
+        font-size: 0.7rem;
+    }
+
+    .expHeader{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 694px) {
+
+    .paiHeader{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .filhoHeader{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin-right: 0;
+    }
+
+    .nome{
+        display: none;
+    }
+
+    .sobreHeader{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 5rem;
+    }
+
+    .habHeader{
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+
+    .proHeader{
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+
+    .expHeader{
+        font-size: 1rem;
+        margin-left: 6.25rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .paiHeader{
+        margin-left: -2rem;
+    }
+  }

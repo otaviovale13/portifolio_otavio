@@ -49,7 +49,6 @@ function App() {
         <img
           className={styles.fotoMinha}
           src="./public/IMG-20241215-WA0007.jpg"
-          alt=""
         />
       </div>
       <section
@@ -232,7 +231,7 @@ function App() {
               <h3 className={styles.ferraenta}>ASP.NET</h3>
               <h3 className={styles.ferraenta}>Bootstrap</h3>
               <h3 className={styles.ferraenta}>.NET</h3>
-              <h3 className={styles.ferraenta}>C#</h3>
+              <h3 className={styles.ferraentaC}>C#</h3>
             </div>
           </div>
         </div>
